@@ -1,0 +1,20 @@
+[project]
+name = "basic-rag"
+version = "0.1.0"
+description = "PDF 智能问答助手 —— 基于 RAG 架构的本地文档问答系统"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.58.0",
+    "langchain-ollama>=1.1.0",
+    "langchain-chroma>=1.1.0",
+    "langchain-core>=1.4.0",
+    "langchain-text-splitters>=1.1.2",
+    "chromadb>=1.5.9",
+    "pypdf>=6.12.2",
+    "python-dotenv>=1.2.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
